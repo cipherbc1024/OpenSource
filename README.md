@@ -94,8 +94,7 @@ Selected License: [License](./ref/CBC-OpenSource-License.md) - CipherSafe Source
 |Stage 3: Blockchain Access Layer & Others|Goal:<br />complete controlled open-sourcing of the core tech stack and build a comprehensive code audit and research environment. |For critical issues, fix internally and provide an updated system architecture overview to help partners better understand the overall design. |Late January next year|
 
 ## Chapter 4: Scope Boundary of Open Source Components
-⚠️ Important Note: Access to the following project source code requires an application. ⚠️
-⚠️ Please have your GitHub account ready and contact support@cipherbc.com for authorization. ⚠️
+⚠️ Important Note: Access to the following project source code requires an application. Please have your GitHub account ready and contact support@cipherbc.com for authorization. ⚠️️
 
 ### 4.1 Frontend Part: 
 <table>
