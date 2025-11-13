@@ -1,6 +1,5 @@
 # 📜 CipherSafe Source-Available Non-Commercial License (CS-NC License) 
 **Version 1.0 – October 2025** 
-[TOC]
 
 ## Preamble 
 
