@@ -300,7 +300,7 @@ Selected License: [License](./ref/CBC-OpenSource-License.md) - CipherSafe Source
     <th>Link</th>
   </tr>
   <tr>
-    <td>商户节点</td>
+    <td>Merchant Node</td>
     <td>1</td>
     <td></td>
   </tr>
@@ -316,7 +316,7 @@ Selected License: [License](./ref/CBC-OpenSource-License.md) - CipherSafe Source
     <th>Link</th>
   </tr>
   <tr>
-    <td>商户节点</td>
+    <td>Merchant Node</td>
     <td>3</td>
     <td></td>
   </tr>
