@@ -65,3 +65,312 @@
 |Phase 1: 前端应用与紧急单元|目标：<br />验证受控发布流程的有效性，完成前端应用代码开源，使其得以接受审视并进行合理工作讨论；<br />此外，优先解决部分商户节点项目的即时安全审计需求。|完成首批代码的安全交付，并在内部修复关键性、严重等安全问题。<br />1. 代码清理与审计： 移除前端代码中的生产环境隐私数据。<br /> 2. 权限设置： 完成GitHub仓库的用户白名单设置，并分配首批已签署 NDA 的合作方访问权限。<br /> 3. 文档发布： 随代码同步发布 CS-NC License。|本月下旬|
 |Phase 2: MPC 核心依赖库|目标：<br />发布涉及高安全性要求的 MPC（多方安全计算）核心依赖函数库，供合作方进行深度的安全与算法审计。|在内部修复关键性、严重等安全问题，并确保其与 CS-NC License 描述的“专有知识”边界清晰。<br /> 2. 依赖审计确认：最终确认 MPC 库所依赖的所有第三方组件的许可证，并在相应 README 中列出合规声明。<br /> 3. 如有需要，撰写技术指引：为 MPC 库撰写专门的算法原理和安全审计指引。|12 月下旬|
 |Phase 3: 区块链接入层及其他|目标：<br />完成项目核心技术栈的受控开源覆盖，构建完整的代码审计/研究环境。|在内部修复关键性、严重等安全问题，并计划提供整体架构设计更新，便于合作方理解系统架构。|明年 1 月下旬|
+
+## 第四章：开源组件范围界定 (Scope Boundary)
+### 4.1 Frontend Part: 
+<table>
+  <tr>
+    <th colspan="3">CipherBC Flexify App</th>
+  </tr>
+  <tr>
+    <td colspan="3">Link: ...</td>
+  </tr>
+  <tr>
+    <th>Module</th>
+    <th>Stage</th>
+  </tr>
+  <tr>
+    <td>API Reference</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>dapp</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>MPC Logic Reference</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Related to CipherSafe</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Wallet backup</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>CipherCard</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Approval</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Risk Control</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Login and register</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Member/Department/Role Permissions</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Team/Wallet Creation</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Exchange</td>
+    <td>2</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="2">CipherBC Flexify Desk</th>
+  </tr>
+  <tr>
+    <td colspan="2">Link: ...</td>
+  </tr>
+  <tr>
+    <th>Module</th>
+    <th>Stage</th>
+  </tr>
+  <tr>
+    <td>API Reference</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>DApp</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>WaaS</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Exchange</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Approval</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Risk Control</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Team</td>
+    <td>2</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="2">CipherSafe</th>
+  </tr>
+  <tr>
+    <td colspan="2">Link: ...</td>
+  </tr>
+  <tr>
+    <th>Module</th>
+    <th>Stage</th>
+  </tr>
+  <tr>
+    <td>Fingerprint SDK Reference</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Storage SDK Reference</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Bluetooth Interaction</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>MPC data processing</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Wallet Creation</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Signature Verification</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>MPC create/clone/recover/sign</td>
+    <td>1</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>Module</th>
+    <th>Stage</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>Key recovery tool</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+</table>
+
+
+### 4.2 MPC Part: 
+
+<table>
+  <tr>
+    <th colspan="4">CipherSafe / Flexify</th>
+  </tr>
+  <tr>
+    <th>Module</th>
+    <th>Stage</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>mpc sdk for ios/ andriod api</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>recovery tool</td>
+    <td>2</td>
+    <td></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="4">WaaS(4/4, 1.0)</th>
+  </tr>
+  <tr>
+    <th>Module</th>
+    <th>Stage</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>商户节点</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="4">Waas(m/n)</th>
+  </tr>
+  <tr>
+    <th>Module</th>
+    <th>Stage</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>商户节点</td>
+    <td>3</td>
+    <td></td>
+  </tr>
+</table>
+
+
+### 4.3 Blockchain Layer: 
+
+<table>
+  <tr>
+    <th colspan="4">Waas</th>
+  </tr>
+  <tr>
+    <th>Module</th>
+    <th>Stage</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>2019签名机</td>
+    <td>3</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>2023签名机</td>
+    <td>3</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>JS签名机</td>
+    <td>3</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>商户收款地址合约源码</td>
+    <td>3</td>
+    <td></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="4">Flexify</th>
+  </tr>
+  <tr>
+    <th>Module</th>
+    <th>Stage</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>提现（和mpc交互）服务</td>
+    <td>3</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>对接业务钱包工具</td>
+    <td>3</td>
+    <td></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="4">GemW</th>
+  </tr>
+  <tr>
+    <th>Module</th>
+    <th>Stage</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>seal机服务</td>
+    <td>3</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>签名机服务</td>
+    <td>3</td>
+    <td></td>
+  </tr>
+</table>
+
+## 第五章：宏观设计
+### 5.1 Architecture OverAll
+<img src="./ref/OmnibusWallet/Architecture-OverAll.png" alt="drawing" width="800"/>
+
+### 5.2 Solution of OmnibusWallet - OverAll
+<img src="./ref/OmnibusWallet/Solution_of_OmnibusWallet.png" alt="drawing" width="800"/>
+
+#### 5.2.1 Solution of OmnibusWallet - Level 1
+<img src="./ref/OmnibusWallet/Level1-Solution_of_OmnibusWallet.png" alt="drawing" width="800"/>
+
+#### 5.2.2 Solution of OmnibusWallet - Level 2
+<img src="./ref/OmnibusWallet/Level2-Solution_of_OmnibusWallet_Arch.png" alt="drawing" width="800"/>
+
+### 5.3 CipherSafe Overview
+
+<img src="./ref/CipherSafe/CipherD-HWWSide-HWWAppActionFlow.png" alt="drawing" width="800"/>
+
+<img src="./ref/CipherSafe/CipherDCloudStorage.png" alt="drawing" width="800"/>
