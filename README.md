@@ -36,9 +36,7 @@ Under legal agreements and customized licenses, the project can absorb external 
 
 
 ## Chapter 2: Licensing and Restrictions
-
-⚠️ Important Note: This is not a traditional open-source project.
-⚠️ Please note that this project does not follow the traditional open-source definition set by the Open Source Initiative (OSI). It is a source-available project designed for controlled knowledge sharing and collaboration with trusted partners, rather than unrestricted community participation.
+⚠️ Important Note: This is not a traditional open-source project. Please note that this project does not follow the traditional open-source definition set by the Open Source Initiative (OSI). It is a source-available project designed for controlled knowledge sharing and collaboration with trusted partners, rather than unrestricted community participation. ⚠️
 
 ### 2.1 License Scope and Restrictions
 This project uses a Custom Source-Available License (CS-NC License), strictly limiting use to academic and security-related purposes. It is limited in two key dimensions:
