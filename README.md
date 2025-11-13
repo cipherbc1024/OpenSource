@@ -16,8 +16,8 @@
 ### 2.2 License Selection and Compliance
 
 ## Chapter 3: Timeline & Stage Goals
-### Open Source Timeline & Execution
-### Stage Goals:
+### 3.1 Open Source Timeline & Execution
+### 3.2 Stage Goals:
 
 ## Chapter 4: Scope Boundary of Open Source Components
 ### 4.1 Scope Boundary of Open Source Components
