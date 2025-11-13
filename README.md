@@ -1,4 +1,4 @@
-# Open Source Code Overview
+# Open Source Overview
 
 ## Chapter 1: Open Source Motivation and Vision
 
