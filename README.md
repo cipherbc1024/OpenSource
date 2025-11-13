@@ -1,116 +1,101 @@
-# Open Source Overview
+# Open Source Roadmap Overview
 
-## Chapter 1: Open Source Motivation and Vision
+## Section 1: Motivation and Vision
 
-### A. Open Source Motivation (Why Restricted Sharing?)
+### A. Motivation (Why choose to restrict sharing?)
 
-- This project adopts a strictly restricted source-available model, rather than traditional open source. Its core motivation is to maximize value in a controlled and trusted environment:
+- This project adopts a source-available model rather than a full open source model. The core goal is to maximize value under controlled and trusted conditions.
 
-#### 1. Accelerate Technical Transparency and Integration for Partners:
+#### 1. Accelerate transparency and integration with partners.
 
-- Provide source code to core partners who have signed the NDA, enabling them to deeply understand the project's internal mechanisms, data flows, and integration points, significantly shortening the cycle of technical docking and system integration.
+- Source code will be shared with NDA-signed partners, allowing them to deeply understand internal mechanisms, data flows, and integration points. It will significantly shorten integration cycles.
 
-#### 2. Enhance Security and Compliance:
+#### 2. Enhance security and compliance.
 
-- By authorizing professional third-party organizations (such as security auditing firms) or partner teams to conduct security audits and independent verification, leveraging the power of external experts, the reliability, robustness, and security of the code are improved without disclosing core intellectual property rights.
+- Authorized third parties such as auditors and partner teams can independently conduct code audits and security verification. By uniting external experts, it can strengthen reliability and robustness without exposing core IP.
 
-#### 3. Promote Cutting-Edge Academic Exchange and Verification:
+#### 3. Promote academic collaboration and validation.
 
-- Provide code to specific academic research institutions as a verification basis or data source for theoretical research, to jointly promote cutting-edge exploration and progress in related technical fields in non-commercial areas.
+- Selected academic institutions will be granted access to verify theoretical research and foster non-commercial innovation in related technical domains.
 
-### B. Project Vision (Goals in a Constrained Environment)
+### 3.1 Project Vision (Goals in Restricted  Sharing)
 
-The vision of this project is to become a technological cornerstone within a controlled ecosystem, achieving the following goals:
+We aim to establish the technical cornerstone within a trusted ecosystem, achieving:
 
-#### 1. Become the Gold Standard for Security Auditing in the Industry:
+#### 1. Become the golden standard for security auditing in the blockchain industry.
 
-- Through continuous external audits performed by trusted partners, establish this project's codebase as a widely validated reference implementation in terms of security and reliability within specific technology areas.
+- Through continuous third-party audits, the project will serve as a verified reference implementation in its technical field.
 
-#### 2. Establish an Efficient Trust Collaboration Cycle:
+#### 2. An efficient trust-based collaboration cycle
 
-- Within a strict NDA framework, establish an efficient, low-risk collaboration cycle to ensure that feedback from partners and research institutions is applied promptly and accurately to the iteration of core code, forming a unique competitive advantage.
+- Under a strict NDA framework, build an efficient, low-risk collaboration loop that quickly integrates partner and research feedback into core code, forming a unique competitive point.
 
-#### 3. Protect Core Intellectual Property While Achieving Technological Evolution:
+#### 3. Technical evolution while protecting core IP
 
-Under the umbrella of legal agreements and customized licenses, the project can absorb optimization and security suggestions from external sources, achieving continuous technological evolution while resolutely protecting our company's core business value and intellectual property from misuse.
+Under legal agreements and customized licenses, the project can absorb external optimization and security insights to achieve continuous technical evolution while firmly protecting our core commercial value and intellectual property.
 
 
-## Chapter 2: Licensing and Prohibitions
+## Chapter 2: Licensing and Restrictions
 
-⚠️ Important Note: This is not a traditional open-source project ⚠️ Please note that this project does not follow the traditional open-source project definition of the Open Source Initiative (OSI). It is a source-available project, with the core goal of knowledge sharing and collaboration with trusted partners in a controlled environment, rather than maximizing free community participation.
+⚠️ Important Note: This is not a traditional open-source project.
+⚠️ Please note that this project does not follow the traditional open-source definition set by the Open Source Initiative (OSI). It is a source-available project designed for controlled knowledge sharing and collaboration with trusted partners, rather than unrestricted community participation.
 
-### 2.1 Scope and Strict License Restrictions
-This project uses a Custom Source-Available License to support specific academic research and security enhancement purposes. Usage of this project is subject to extremely strict restrictions, primarily in the following two core dimensions:
+### 2.1 License Scope and Restrictions
+This project uses a Custom Source-Available License (CS-NC License), strictly limiting use to academic and security-related purposes. It is limited in two key dimensions:
 
 #### A. License Scope
-The license for this project strictly limits its use. Any commercial use, product integration, redistribution, or creation of derivative works without the project's written authorization is prohibited (see Section 2.2). This license is the general license for this account.
+It is limited to use the project license. Any commercial use, product integration, redistribution, or creation of derivative works without written authorization from the project owner is prohibited. (See Section 2.2 ) License Selection and Compliance are applicable as the standard license for this account.
 
-- Permitted Uses:
-* **Purely Academic Research Use:** Limited to code understanding, algorithm analysis, and paper publication within non-commercial institutions (such as universities and non-profit research institutes) (source of the code must be acknowledged).
+* Permitted Uses:
+  * Academic Research: Limited to code analysis, algorithm study, or paper publication within non-commercial institutions (e.g., universities, research institutes) with proper source attribution. 
+  * Security Auditing and Risk Analysis: Limited to vulnerability testing, compliance review, or functional safety assessment of the project code.
 
-* **Security Audit and Vulnerability Analysis:** Limited to security vulnerability detection, compliance audits, or functional safety assessments of the project code.
+* Prohibited Uses:
+  * Commercial Use or Integration: Prohibited from being directly or indirectly integrated into any commercial product or service.
+  * Public Disclosure or Redistribution: Prohibited from sharing or distributing the code to any third party without a signed agreement.
 
-* **Prohibited Uses:**
-* **Commercial Use or Integration:** Integration of the project code or any part thereof directly or indirectly into any commercial product or service is prohibited.
-
-* **Public Release or Redistribution:** Public release, sharing, or distribution of the code to any third party without a signed agreement is prohibited.
-
-#### B. Strict Audience Restriction
+#### B. Audience Restriction
 Due to the sensitive technology or proprietary information involved in this project, access and use are strictly limited:
 
-* **Primary Audience:** This project is only open to partners who have signed a valid Non-Disclosure Agreement (NDA) or Collaborative Development Agreement with our company. All code visitors and users must first: be bound by a valid legal agreement.
+* Primary Audience: Only partners under valid NDA or Joint Development Agreements.
+ Access is granted exclusively to authorized entities who commit to full confidentiality.
 
 We commit to strictly adhering to the confidentiality clauses in the NDA regarding code, technology, and project information.
 
-- Excluded Audience: Any independent developer, the general public, potential commercial competitors, or entity that does not meet the above academic/security requirements without signing the NDA is not authorized to access or use the project code.
+* Excluded Audience: Independent developers, the general public, competitors, or entities not meeting the above criteria have no right to access or use the code.
 
 ### 2.2 License Selection and Compliance
 
 Selected License: [License](./ref/CBC-OpenSource-License.md) - CipherSafe Source-Available Non-Commercial License (CS-NC License) V1.0
 
-#### A. Necessity and Basis for Customized License
+#### A. Necessity and Rationale for a Custom License
+- To balance technical transparency (for auditing and research) with protection of core trade secrets, the project adopts a highly customized CS-NC License.
+- Differentiate from Traditional license: Unlike OSI-defined open-source licenses, this license strictly prohibits commercial use and limits its audience (see Section 2.1 B), ensuring operations remain within a trusted network
+- Legal: CS-NC License terms take effect under the company’s NDA agreements, providing dual protection for intellectual property and commercial interests during code access, research, and usage.
 
-- Because this project aims to balance technical transparency (for auditing/research) with the protection of core business secrets, we have chosen the highly customized CS-NC License.
+#### B. Contributor License Agreement (CLA)
+- Given the project’s sensitivity, contributors must ensure a single legal source and clear IP ownership.
+- CIA Rules: Individuals or partners must sign a Contributor License Agreement (CLA) before submitting any code (Pull Request).
+- The CLA grants the company the rights to:
+  - i. Incorporate submitted code under the CS-NC License;
+  - ii. Use or commercialize it in the future without additional authorization.
 
-- Differentiating from Traditional Open Source: This license does not conform to the Open Source Initiative (OSI) definition of "open source," which primarily prohibits commercial use and restricts the target audience (see Section 2.1 B) to ensure the project operates within a trust chain.
+#### C. Third-Party Supported Compliance
+- The project uses necessary third-party components under strict license compliance:
+- Audit & Isolation: During Stage 1, all dependencies will undergo license audits to ensure compatibility with the project’s non-commercial objectives (e.g., MIT, Apache 2.0).
+- Distribution Restrictions: Although open-source libraries are used, redistribution of the full codebase remains restricted under the CS-NC License. Authorized users may not bypass or violate the original licenses of third-party components.
 
-- Legal Basis: All terms of the CS-NC License are designed to complement the Non-Disclosure Agreement (NDA) signed by our company, ensuring maximum protection of the project's intellectual property and commercial interests during access to, research of, and use of the code.
+## Section 3: Timeline and Milestones
 
-#### B. Contributor License Agreement (CLA) Requirements
-
-- Given the highly sensitive nature of this project, to ensure a single legal source for the codebase and clarity of intellectual property rights, the project requires:
-
-- CLA Mechanism: All collaborators or individuals submitting code modifications (Pull Requests) to this project must sign a Contributor License Agreement (CLA) beforehand.
-
-- Purpose: Through the CLA, contributors authorize our company to possess the necessary rights to the submitted code so that our company can:
-
-- i. Include it within the scope of the CS-NC License;
-
-- ii. Use the code for commercial purposes in the future without requiring duplicate licensing.
-
-#### C. Third-Party Dependency License Compliance
-
-- This project uses necessary third-party components during its build process, and we will strictly adhere to the open-source licenses of these components:
-
-- Auditing and Isolation: In Phase 1 (timeline), all third-party dependencies will undergo license auditing. All dependencies must be compatible with the project's non-commercial targets, typically MIT, Apache 2.0, or similar permissive licenses.
-
-- Distribution Restrictions: Although this project relies on certain open-source libraries, the CS-NC License restricts the distribution and use of the entire codebase. Licensees may not exploit this project to bypass the original license terms of third-party libraries.
-
-## Chapter 3: Timeline & Phase Goals
-
-### 3.1 Open Source Timeline & Execution
-
-### 3.2 Phase Goals:
-
-| Milestones (Phase) | Core Goals and Scope of Open Source Components | Key Tasks List (Compliance and Execution) | Planned Completion Time |
+| Milestones (Stage) | Core Goals and Scope of Open Source Components | Key Tasks List (Compliance and Execution) | Planned Completion Time |
 |---|---|---|---|
-|Phase 1: Front-end Application and Emergency Units | Goals:<br />Verify the effectiveness of the controlled release process, complete the open-sourcing of the front-end application code, allowing it to be reviewed and discussed appropriately;<br />In addition, prioritize addressing the immediate security audit needs of some merchant node projects. |Complete the secure delivery of the first batch of code and internally fix critical and serious security issues.<br />1. Code Cleanup and Audit: Remove production environment privacy data from the front-end code.<br />2. Permission Settings: Complete the user whitelist settings for the GitHub repository and assign access permissions to the first batch of partners who have signed the NDA.<br />3. Documentation Release: Release the CS-NC License simultaneously with the code. |Late December|
-|Phase 2: MPC Core Dependency Library|Goal:<br />Release the core dependency library for MPC (Multi-Party Secure Computation) with high security requirements, for partners to conduct in-depth security and algorithm audits. |Internally fix critical and serious security issues and ensure a clear boundary between the library and the "proprietary knowledge" described in the CS-NC License.<br /> 2. Dependency Audit Confirmation: Finalize the licenses of all third-party components depended on by the MPC library and list compliance statements in the corresponding README.<br /> 3. If necessary, write technical guidelines: Write specific algorithm principles and security audit guidelines for the MPC library. |Late December|
-|Phase 3: Blockchain Access Layer and Others|Goal:<br />Complete controlled open-source coverage of the project's core technology stack and build a complete code audit/research environment. |Internally fix critical and serious security issues and plan to provide an overall architecture design update to facilitate partners' understanding of the system architecture. |Late January next year|
+|Stage 1: Front-end Application and Emergency Units | Goals:<br />validate controlled release;<br />publish frontend code for review; <br />enable review and discussion;<br /> prioritize urgent security audits for merchant nodes. |Complete the secure delivery of the first batch of code.<br />1. Code Audit: Clean and audit code to remove sensitive data. <br />2. Configuration Settings: Configure GitHub whitelist and NDA partner access. <br />3. Publications: Publish CS-NC License with code.| Late December|
+|Stage 2: MPC Core Library|Goal:<br />release MPC (Multi-Party Computation) core libraries for deep security;<br /> algorithm review for partners doing audits in depth | 1. Fix critical and major security issues internally, ensuring clear boundaries of “proprietary knowledge” as defined in the CS-NC License.<br /> 2. Conduct dependency audit: verify licenses of all third-party components used in the MPC library and include compliance statements in the README. <br /> 3. If necessary, prepare technical documentation outlining MPC algorithms and security audit guidelines. |Late December|
+|Stage 3: Blockchain Access Layer & Others|Goal:<br />complete controlled open-sourcing of the core tech stack and build a comprehensive code audit and research environment. |For critical issues, fix internally and provide an updated system architecture overview to help partners better understand the overall design. |Late January next year|
 
 ## Chapter 4: Scope Boundary of Open Source Components
-⚠️ Important Note: You need to apply for access to the source code of the following projects. ⚠️
-⚠️ Please prepare your Github account and contact support@cipherbc.com ⚠️
+⚠️ Important Note: Access to the following project source code requires an application. ⚠️
+⚠️ Please have your GitHub account ready and contact support@cipherbc.com for authorization. ⚠️
 
 ### 4.1 Frontend Part: 
 <table>
@@ -402,6 +387,8 @@ Selected License: [License](./ref/CBC-OpenSource-License.md) - CipherSafe Source
 </table>
 
 ## Chapter 5: Macro Design
+Designed based on the professional and rigorous Omnibus Wallet architecture, we ensured a clear code structure, facilitating systematic and comprehensive security audits by our partners.
+
 ### 5.1 Architecture OverAll
 <img src="./ref/OmnibusWallet/Architecture-OverAll.png" alt="drawing" width="800"/>
 
