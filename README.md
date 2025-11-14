@@ -35,7 +35,7 @@ We aim to establish the technical cornerstone within a trusted ecosystem, achiev
 Under legal agreements and customized licenses, the project can absorb external optimization and security insights to achieve continuous technical evolution while firmly protecting our core commercial value and intellectual property.
 
 
-## Chapter 2: Licensing and Restrictions
+## Section 2: Licensing and Restrictions
 ⚠️ Important Note: This is not a traditional open-source project. Please note that this project does not follow the traditional open-source definition set by the Open Source Initiative (OSI). It is a source-available project designed for controlled knowledge sharing and collaboration with trusted partners, rather than unrestricted community participation. ⚠️
 
 ### 2.1 License Scope and Restrictions
@@ -91,7 +91,7 @@ Selected License: [License](./ref/CBC-OpenSource-License.md) - CipherSafe Source
 |Stage 2: MPC Core Library|Goal:<br />release MPC (Multi-Party Computation) core libraries for deep security;<br /> algorithm review for partners doing audits in depth | 1. Fix critical and major security issues internally, ensuring clear boundaries of “proprietary knowledge” as defined in the CS-NC License.<br /> 2. Conduct dependency audit: verify licenses of all third-party components used in the MPC library and include compliance statements in the README. <br /> 3. If necessary, prepare technical documentation outlining MPC algorithms and security audit guidelines. |Late December|
 |Stage 3: Blockchain Access Layer & Others|Goal:<br />complete controlled open-sourcing of the core tech stack and build a comprehensive code audit and research environment. |For critical issues, fix internally and provide an updated system architecture overview to help partners better understand the overall design. |Late January next year|
 
-## Chapter 4: Scope Boundary of Open Source Components
+## Section 4: Scope Boundary of Open Source Components
 ⚠️ Important Note: Access to the following project source code requires an application. Please have your GitHub account ready and contact support@cipherbc.com for authorization. ⚠️️
 
 ### 4.1 Frontend Part: 
@@ -383,7 +383,7 @@ Selected License: [License](./ref/CBC-OpenSource-License.md) - CipherSafe Source
   </tr>
 </table>
 
-## Chapter 5: Macro Design
+## Section 5: Macro Design
 Designed based on the professional and rigorous Omnibus Wallet architecture, we ensured a clear code structure, facilitating systematic and comprehensive security audits by our partners.
 
 ### 5.1 Architecture OverAll
