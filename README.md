@@ -18,7 +18,7 @@
 
 - Selected academic institutions will be granted access to verify theoretical research and foster non-commercial innovation in related technical domains.
 
-### 3.1 Project Vision (Goals in Restricted  Sharing)
+##### 3.1 Project Vision (Goals in Restricted  Sharing)
 
 We aim to establish the technical cornerstone within a trusted ecosystem, achieving:
 
