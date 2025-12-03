@@ -92,7 +92,7 @@ Selected License: [License](./ref/CBC-OpenSource-License.md) - CipherSafe Source
 |Stage 3: Blockchain Access Layer & Others|Goal:<br />complete controlled open-sourcing of the core tech stack and build a comprehensive code audit and research environment. |For critical issues, fix internally and provide an updated system architecture overview to help partners better understand the overall design. |Late January next year|
 
 ## Section 4: Scope Boundary of Open Source Components
-⚠️ Important Note: Access to the following project source code requires an application. Please have your GitHub account ready and contact support@cipherbc.com for authorization. ⚠️️
+⚠️ Important Note: Access to the following project source code requires an application. Please have your GitHub account ready and contact support@cipherbc.com for authorization. ⚠️
 
 ### 4.1 Frontend Part: 
 <table>
@@ -100,7 +100,9 @@ Selected License: [License](./ref/CBC-OpenSource-License.md) - CipherSafe Source
     <th colspan="3">CipherBC Flexify App</th>
   </tr>
   <tr>
-    <td colspan="3">Link: ...</td>
+    <td colspan="3">
+    Link 1: <a href="https://github.com/cipherbc1024/FlexifyApp_stage1"> FlexifyApp_stage1 </a>
+    </td>
   </tr>
   <tr>
     <th>Module</th>
@@ -161,7 +163,9 @@ Selected License: [License](./ref/CBC-OpenSource-License.md) - CipherSafe Source
     <th colspan="2">CipherBC Flexify Desk</th>
   </tr>
   <tr>
-    <td colspan="2">Link: ...</td>
+    <td colspan="2">
+    Link 1: <a href="https://github.com/cipherbc1024/FlexifyDesk_stage1"> FlexifyDesk_stage1 </a>
+    </td>
   </tr>
   <tr>
     <th>Module</th>
@@ -202,7 +206,9 @@ Selected License: [License](./ref/CBC-OpenSource-License.md) - CipherSafe Source
     <th colspan="2">CipherSafe</th>
   </tr>
   <tr>
-    <td colspan="2">Link: ...</td>
+    <td colspan="2">
+    Link:<a href="https://github.com/cipherbc1024/CipherSafe"> CipherSafe </a>
+    </td>
   </tr>
   <tr>
     <th>Module</th>
@@ -247,7 +253,7 @@ Selected License: [License](./ref/CBC-OpenSource-License.md) - CipherSafe Source
   <tr>
     <td>Key recovery tool</td>
     <td>1</td>
-    <td></td>
+    <td>Link:<a href="https://github.com/cipherbc1024/RecoveryTool"> RecoveryTool </a></td>
   </tr>
 </table>
 
@@ -285,9 +291,9 @@ Selected License: [License](./ref/CBC-OpenSource-License.md) - CipherSafe Source
     <th>Link</th>
   </tr>
   <tr>
-    <td>Merchant Node</td>
+    <td>Shop Node</td>
     <td>1</td>
-    <td></td>
+    <td>Link:<a href="https://github.com/cipherbc1024/WaaS-ShopNode"> WaaS-ShopNode </a></td>
   </tr>
 </table>
 
