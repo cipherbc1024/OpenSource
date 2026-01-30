@@ -272,12 +272,12 @@ Selected License: [License](./ref/CBC-OpenSource-License.md) - CipherSafe Source
   <tr>
     <td>mpc sdk for ios/ andriod api</td>
     <td>1</td>
-    <td></td>
+    <td>Link:<a href="https://github.com/cipherbc1024/CipherSafe"> CipherSafe </a></td>
   </tr>
   <tr>
     <td>recovery tool</td>
     <td>2</td>
-    <td></td>
+    <td>Link:<a href="https://github.com/cipherbc1024/RecoveryTool"> RecoveryTool </a></td>
   </tr>
 </table>
 
