@@ -101,7 +101,7 @@ Selected License: [License](./ref/CBC-OpenSource-License.md) - CipherSafe Source
   </tr>
   <tr>
     <td colspan="3">
-    Link 1: <a href="https://github.com/cipherbc1024/FlexifyApp_stage1"> FlexifyApp_stage1 </a>
+    Link 1: <a href="https://github.com/cipherbc1024/FlexifyApp"> FlexifyApp </a>
     </td>
   </tr>
   <tr>
@@ -164,7 +164,7 @@ Selected License: [License](./ref/CBC-OpenSource-License.md) - CipherSafe Source
   </tr>
   <tr>
     <td colspan="2">
-    Link 1: <a href="https://github.com/cipherbc1024/FlexifyDesk_stage1"> FlexifyDesk_stage1 </a>
+    Link 1: <a href="https://github.com/cipherbc1024/FlexifyDesk"> FlexifyDesk </a>
     </td>
   </tr>
   <tr>
